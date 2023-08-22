@@ -1,0 +1,89 @@
+/* =========***=========
+Responsive CSS
+=========***========= */
+
+/* Min Width 1024px and Max Width 1279px */
+@media (min-width: 1023px) and (max-width: 1279px) {
+}
+
+/* Min Width 768px and Max Width 1023px */
+@media (min-width: 768px) and (max-width: 1023px) {
+}
+
+/* Min Width 300px and Max Width 767px */
+@media (min-width: 300px) and (max-width: 767px) {
+  .hero-img::before,
+  .hero-img::after {
+    top: 10px;
+    left: 10px;
+  }
+
+  .hero-img::after {
+    top: 20px;
+    left: 20px;
+  }
+
+  .feature-img > img {
+    max-width: 90%;
+    width: 100%;
+  }
+
+  .price {
+    left: 28%;
+  }
+}
+
+/* Min Width 300px and Max Width 1023px */
+
+@media (min-width: 300px) and (max-width: 1023px) {
+  .logo img {
+    max-width: 150px;
+  }
+
+  .nav-menu {
+    position: absolute;
+    top: 69px;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: #f7941d;
+    padding: 10px 20px;
+    transition: left 0.3s ease-in-out;
+    z-index: 999;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .menu-icon {
+    width: 25px;
+    height: 2px;
+    background-color: #ffffff;
+    display: block;
+    transition: all 0.2s;
+  }
+
+  .middle-bar {
+    margin: 5px auto;
+  }
+
+  .menu-bar.active .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+  }
+
+  .menu-bar.active .middle-bar {
+    opacity: 0;
+    filter: alpha(opacity=0);
+  }
+
+  .menu-bar.active .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+  }
+
+  .menu-bar.active .toggler-icon {
+    background-color: #ffffff;
+  }
+}
