@@ -65,6 +65,10 @@ Responsive CSS
     left: 0;
   }
 
+  .menu-bar {
+    cursor: pointer;
+  }
+
   .menu-icon {
     width: 25px;
     height: 2px;

@@ -663,12 +663,12 @@ video {
   right: 0px;
 }
 
-.right-16 {
-  right: 4rem;
-}
-
 .right-5 {
   right: 1.25rem;
+}
+
+.right-8 {
+  right: 2rem;
 }
 
 .start-1 {
@@ -679,8 +679,8 @@ video {
   top: 50%;
 }
 
-.top-\[-50px\] {
-  top: -50px;
+.top-\[-55px\] {
+  top: -55px;
 }
 
 .top-\[30\%\] {
@@ -693,30 +693,6 @@ video {
 
 .top-\[55\%\] {
   top: 55%;
-}
-
-.right-10 {
-  right: 2.5rem;
-}
-
-.top-\[-40px\] {
-  top: -40px;
-}
-
-.top-\[-100px\] {
-  top: -100px;
-}
-
-.top-\[-60px\] {
-  top: -60px;
-}
-
-.top-\[-55px\] {
-  top: -55px;
-}
-
-.right-8 {
-  right: 2rem;
 }
 
 .isolate {
@@ -776,8 +752,8 @@ video {
   margin-bottom: 1rem;
 }
 
-.mt-16 {
-  margin-top: 4rem;
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
 .mt-2 {
@@ -790,14 +766,6 @@ video {
 
 .mt-24 {
   margin-top: 6rem;
-}
-
-.mt-5 {
-  margin-top: 1.25rem;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
 }
 
 .box-border {
@@ -2019,14 +1987,14 @@ video {
   padding: 0.25rem;
 }
 
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
 .px-12 {
   padding-left: 3rem;
   padding-right: 3rem;
-}
-
-.px-16 {
-  padding-left: 4rem;
-  padding-right: 4rem;
 }
 
 .px-32 {
@@ -2067,11 +2035,6 @@ video {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-}
-
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
 }
 
 .pb-10 {
@@ -2134,10 +2097,6 @@ video {
 
 .pt-32 {
   padding-top: 8rem;
-}
-
-.pt-4 {
-  padding-top: 1rem;
 }
 
 .pt-8 {
@@ -2765,12 +2724,12 @@ video {
     bottom: 10%;
   }
 
-  .md\:top-\[-130px\] {
-    top: -130px;
-  }
-
   .md\:right-16 {
     right: 4rem;
+  }
+
+  .md\:top-\[-130px\] {
+    top: -130px;
   }
 
   .md\:mt-0 {
@@ -2810,14 +2769,14 @@ video {
     padding-right: 3rem;
   }
 
-  .md\:px-7 {
-    padding-left: 1.75rem;
-    padding-right: 1.75rem;
-  }
-
   .md\:px-16 {
     padding-left: 4rem;
     padding-right: 4rem;
+  }
+
+  .md\:px-7 {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
   }
 
   .md\:pb-0 {
@@ -2869,14 +2828,14 @@ video {
     line-height: 1.75rem;
   }
 
-  .md\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
   .md\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
+  }
+
+  .md\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
 
@@ -2960,11 +2919,6 @@ video {
 }
 
 @media (min-width: 1280px) {
-  .xl\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
-  }
-
   .xl\:text-4xl {
     font-size: 2rem;
   }
