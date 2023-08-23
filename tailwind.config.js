@@ -24,7 +24,7 @@ module.exports = {
       },
     },
     fontFamily:{
-      Comfortaa: ["Comfortaa", "cursive"],
+      Comfortaa: ['Comfortaa', 'cursive'],
       Inter: ["Inter", "sans-serif"]
     }
   },
